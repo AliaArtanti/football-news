@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-&m2dndv55kh*w1it48r839$e#2gy-1o-r7!!(ev)0-dc%710&n
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "alia-artanti-footballnews.pbp.cs.ui.ac.id"]
 
 
 # Application definition
