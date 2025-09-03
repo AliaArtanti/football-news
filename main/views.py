@@ -1,9 +1,9 @@
 from django.shortcuts import render
 def show_main(request):
     context = {
-        'npm' : '240123456',
-        'name': 'Haru Urara',
-        'class': 'PBP A'
+        'npm' : '2406439425',
+        'name': 'Alia Artanti',
+        'class': 'PBP F'
     }
 
     return render(request, "main.html", context)
