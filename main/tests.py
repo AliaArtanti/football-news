@@ -69,7 +69,7 @@ class MainTest(TestCase):
         )
         self.assertTrue(news_21.is_news_hot)
     
-    
+
 class FootballNewsFunctionalTest(LiveServerTestCase):
     @classmethod
     def setUpClass(cls):
